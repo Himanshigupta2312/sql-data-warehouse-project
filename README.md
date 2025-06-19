@@ -81,12 +81,10 @@ Sales trends
 
 These reports help stakeholders make better business decisions.
 
-For details, see docs/requirements.md.
+
 
 📁 Repository Structure
-graphql
-Copy
-Edit
+
 data-warehouse-project/
 │
 ├── datasets/                       # Raw CSV files (ERP & CRM)
