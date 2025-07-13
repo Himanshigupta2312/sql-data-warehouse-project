@@ -1,110 +1,42 @@
-📊 Data Warehouse and Analytics Project
-Welcome to the Data Warehouse and Analytics project repository! 🚀
-This project demonstrates a complete end-to-end data warehousing and analytics solution—from raw data ingestion to business insights. It serves as a portfolio-ready example, applying best practices in data engineering and analytics.
+Welcome to the Data Warehouse and Analytics Project repository! 🚀
+This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights.
 
-🏗️ Data Architecture
-This project follows the Medallion Architecture pattern, consisting of three layers:
+**🏗️ Data Architecture**
+The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers:    
+  1.Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.                        
+        2.Silver Layer: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.             
+  3.Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
-Bronze Layer: Stores raw data ingested from CSV files as-is into a SQL Server database.
+**📖 Project Overview**
+This project involves:
 
-Silver Layer: Cleans, standardizes, and transforms the raw data for analysis.
+Data Architecture: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
+ETL Pipelines: Extracting, transforming, and loading data from source systems into the warehouse.
+Data Modeling: Developing fact and dimension tables optimized for analytical queries.
+Analytics & Reporting: Creating SQL-based reports and dashboards for actionable insights.
 
-Gold Layer: Final, analytics-ready data modeled using a star schema for reporting and dashboarding.
+**🚀 Project Requirements**
+Building the Data Warehouse (Data Engineering)
+Objective
+Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
-📖 Project Overview
-This project includes:
+**Specifications**
+Data Sources: Import data from two source systems (ERP and CRM) provided as CSV files.
+Data Quality: Cleanse and resolve data quality issues prior to analysis.
+Integration: Combine both sources into a single, user-friendly data model designed for analytical queries.
+Scope: Focus on the latest dataset only; historization of data is not required.
+Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
-Modern Data Architecture: Structured with Bronze, Silver, and Gold layers.
+**BI: Analytics & Reporting (Data Analysis)**
+**Objective**
+Develop SQL-based analytics to deliver detailed insights into:
 
-ETL Pipelines: Extract, transform, and load data into the warehouse.
+Customer Behavior
+Product Performance
+Sales Trends
+These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
-Data Modeling: Creation of dimension and fact tables optimized for analysis.
+**About Me:**
 
-Reporting & Insights: SQL-based queries for generating actionable business insights.
-
-🎯 Who Should Use This?
-This repository is ideal for:
-
-SQL Developers
-
-Data Engineers
-
-ETL Developers
-
-Data Analysts
-
-Aspiring Data Architects
-
-Whether you're a student or professional, this project helps you build and demonstrate key skills in data handling and analytics.
-
-🛠️ Tools & Resources
-Best part? Everything is free!
-
-Datasets: Includes ERP and CRM data in CSV format.
-
-SQL Server Express: Lightweight SQL database for hosting the warehouse.
-
-SQL Server Management Studio (SSMS): GUI to manage SQL databases.
-
-Git & GitHub: Version control and collaboration tools.
-
-Draw.io: Used for designing data architecture, flow, and models.
-
-Notion: Access to a detailed project plan and tasks.
-
-🚀 Project Requirements
-🏗️ Data Engineering
-Objective:
-Build a modern data warehouse in SQL Server to integrate and manage sales data for analytical reporting.
-
-Key Features:
-
-Data Sources: Import CSV data from ERP and CRM systems.
-
-Data Cleansing: Handle duplicates, missing values, and standardization.
-
-Integration: Merge source systems into a unified, user-friendly model.
-
-Scope: Focused on the latest dataset (historical tracking not included).
-
-Documentation: Includes clear, business-ready documentation of the model.
-
-📊 Data Analytics
-Objective:
-Use SQL queries to extract insights into:
-
-Customer behavior
-
-Product performance
-
-Sales trends
-
-These reports help stakeholders make better business decisions.
-
-
-
-📁 Repository Structure
-
-data-warehouse-project/
-│
-├── datasets/                       # Raw CSV files (ERP & CRM)
-│
-├── docs/                           # Documentation & diagrams
-│   ├── etl.drawio                  # ETL pipeline design
-│   ├── data_architecture.drawio    # Overall architecture
-│   ├── data_flow.drawio            # Data flow diagram
-│   ├── data_models.drawio          # Star schema design
-│   ├── data_catalog.md             # Dataset fields & metadata
-│   ├── naming-conventions.md       # Table & column naming standards
-│
-├── scripts/                        # SQL scripts for all ETL layers
-│   ├── bronze/                     # Load raw data
-│   ├── silver/                     # Clean/transform data
-│   ├── gold/                       # Analytical modeling
-│
-├── tests/                          # Data quality and validation scripts
-├── README.md                       # Project overview
-├── LICENSE                         # License file
-├── .gitignore                      # Git ignore rules
-└── requirements.txt                # Project setup dependencies
+I am a detail-oriented and motivated data analyst with a strong foundation in mathematics and a passion for data-driven decision-making. Currently pursuing my MCA from AKTU and holding a B.Sc. in Mathematics, I am continuously building my skills in SQL, Power BI, and Excel. I enjoy transforming raw data into meaningful insights and am committed to learning new tools and technologies to grow in the data analytics field.
 
