@@ -28,15 +28,15 @@ Scope: Focus on the latest dataset only; historization of data is not required.
 Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
 **BI: Analytics & Reporting (Data Analysis)**
-**Objective**
-Develop SQL-based analytics to deliver detailed insights into:
+**Objective**                                                                                  
+Develop SQL-based analytics to deliver detailed insights into:                                                                                
 
-Customer Behavior
-Product Performance
-Sales Trends
+Customer Behavior                                                                                                                                    
+Product Performance                                                                                                                      
+Sales Trends                                                                                                                          
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
 **About Me:**
 
-I am a detail-oriented and motivated data analyst with a strong foundation in mathematics and a passion for data-driven decision-making. Currently pursuing my MCA from AKTU and holding a B.Sc. in Mathematics, I am continuously building my skills in SQL, Power BI, and Excel. I enjoy transforming raw data into meaningful insights and am committed to learning new tools and technologies to grow in the data analytics field.
+Hi there! I'm Himanshi Gupta ,Hi, I’m someone who enjoys working with data and finding patterns that help make better decisions. I have a background in mathematics, and right now I’m pursuing my MCA. I’m learning tools like SQL and Power BI, and I really like turning complex data into something simple and useful. I'm always eager to learn new things and improve my skills to grow in the field of data analytics.
 
